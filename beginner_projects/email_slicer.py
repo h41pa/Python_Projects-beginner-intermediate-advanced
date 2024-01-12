@@ -1,6 +1,6 @@
 def email_slicer():
     while True:
-        print("\t Welcome to email slicer !\n")
+        print("\t Welcome to email slicer!\n")
 
         email_input = input("Input your email adress: ")
         (username, domain) = email_input.split("@")
