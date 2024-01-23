@@ -31,7 +31,6 @@ def Generator():
     pass_str.set(password)
 
 
-
 def Exit():
     root.destroy()
 
