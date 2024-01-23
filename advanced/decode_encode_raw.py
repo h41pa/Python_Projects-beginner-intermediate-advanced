@@ -18,17 +18,18 @@ def Decode(key, message):
 
     return "".join(dec)
 
-# Get user input
-message = input("Enter the message: ")
-key = input("Enter the key: ")
-mode = input("Enter mode (e-encode, d-decode): ")
 
-# Process input based on mode
+message = input("Enter your message: ")
+key = input("Enter the key for encode'decode")
+mode = input("Enter mode ( e-encode, d-decode): ").lower()
+
 if mode == 'e':
     result = Encode(key, message)
-    print(f"Encoded Result: {result}")
+    print(f"Encoded result -> {result}")
 elif mode == 'd':
     result = Decode(key, message)
-    print(f"Decoded Result: {result}")
+    print(f"Decoded Result -> {result}")
 else:
     print("Invalid Mode")
+
+
