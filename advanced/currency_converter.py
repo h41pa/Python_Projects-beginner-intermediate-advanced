@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 import re
 
+
 class RealTimeCurrencyConverter():
     def __init__(self, url):
         self.data = requests.get(url).json()
@@ -36,7 +37,7 @@ class App(tk.Tk):
 
         self.date_label = Label(self,
                                 text=f"1 EUR = {self.currency_converter.convert('EUR', 'USD', 1)} USD \n Date : {self.currency_converter.data['date']}",
-                                fg='purple',relief=tk.GROOVE, borderwidth=5)
+                                fg='purple', relief=tk.GROOVE, borderwidth=5)
 
         self.intro_label.place(x=10, y=5)
         self.date_label.place(x=180, y=50)
@@ -88,7 +89,6 @@ class App(tk.Tk):
         regex = re.compile(r"[0-9,]*?(\.)?[0-9,]*$")
         result = regex.match(string)
         return string == "" or (string.count('.') <= 1 and result is not None)
-
 
 
 url = 'https://api.exchangerate-api.com/v4/latest/USD'
