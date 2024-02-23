@@ -1,6 +1,5 @@
 
 def binary_search(arr, target):
-    arr = sorted(arr)
     left, right = 0, len(arr) -1
 
     while left <= right:
