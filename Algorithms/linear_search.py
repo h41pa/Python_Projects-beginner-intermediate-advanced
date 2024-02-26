@@ -18,3 +18,10 @@ def linear_search_enumerate(arr, target):
             return index
 
     return -1
+
+"""
+ Linear Search is a simple search algorithm that 
+ sequentially checks each element in a list until a match is found or the entire list has been searched.
+ 
+ Linear Search is straightforward but may not be as efficient as other search algorithms for large datasets.
+"""

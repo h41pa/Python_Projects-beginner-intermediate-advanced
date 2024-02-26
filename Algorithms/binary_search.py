@@ -21,3 +21,14 @@ def binary_search(arr, target):
 sortlist = [11, 12, 17, 19, 22, 25, 64]
 target = 19
 print(binary_search(sortlist, target))
+
+"""
+Binary Search is an efficient algorithm for finding a target value within a sorted sequence (usually an array or a list). 
+The key idea behind binary search is to repeatedly divide the search interval in half, 
+eliminating half of the remaining elements in each step.
+
+-
+Binary Search has a time complexity of O(log n), making it very efficient for large datasets compared to linear search.
+
+
+"""
