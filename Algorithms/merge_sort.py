@@ -29,10 +29,11 @@ def merge_sort(arr):
             j += 1
             k += 1
 
-# Example usage
+
 my_list = [64, 25, 12, 22, 11]
 merge_sort(my_list)
 print("Sorted list:", my_list)
+
 
 """
 Merge Sort is a divide-and-conquer algorithm that works by recursively 
@@ -50,8 +51,3 @@ Merge Sort has a time complexity of O(n log n) and is a stable sorting algorithm
 It is efficient for large datasets but may require additional space for the merging process.
 
 """
-
-
-
-
-
