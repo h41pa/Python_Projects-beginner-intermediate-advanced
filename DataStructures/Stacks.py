@@ -1,4 +1,3 @@
-
 # using list
 
 class StackList:
@@ -6,22 +5,19 @@ class StackList:
     def __init__(self):
         self.items = []
 
-
     def is_empty(self):
         return len(self.items) == 0
-
 
     def push(self, item):
         self.items.append(item)
 
     def pop(self):
-        if not  self.is_empty():
+        if not self.is_empty():
             return self.items.pop()
 
     def peek(self):
         if not self.is_empty():
             return self.items[-1]
-
 
     def size(self):
         return len(self.items)
@@ -41,11 +37,10 @@ popped_item = stack_list.pop()
 print(f'Popped item : {popped_item}')
 print(f'Stack after pop : {stack_list.items}')
 
-
-
 # -----  Using collections.deque -------
 
 from collections import deque
+
 
 class StackDeque:
     def __init__(self):
@@ -68,6 +63,7 @@ class StackDeque:
     def size(self):
         return len(self.items)
 
+
 # Example usage
 stack_deque = StackDeque()
 
@@ -83,7 +79,6 @@ print("Peek:", stack_deque.peek())
 popped_item = stack_deque.pop()
 print("Popped item:", popped_item)
 print("Stack after pop:", stack_deque.items)
-
 
 """
 Stacks are linear data structures in Python. Storing items in Stacks is based on 

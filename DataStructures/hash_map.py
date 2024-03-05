@@ -28,3 +28,10 @@ del my_dict['Maria']
 
 for key, value in my_dict.items():
     print(f'{key} - {value}')
+
+
+
+lista = ['Pere','Dude', 'Mere']
+
+for index, elem in enumerate(lista):
+    print(index, elem)
