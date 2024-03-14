@@ -1,0 +1,95 @@
+DSA
+
+Algorithms:
+
+    Intro - Time Complexity
+
+    Insertion Sort
+
+    Selection Sort
+
+    Bubble Sort
+
+    Quick Sort
+
+    Heap Sort
+
+    Merge Sort
+
+    Binary Search
+
+    Radix Sort
+
+    Bogo Sort
+
+    Linear Search
+
+    Binary Search
+
+    Quiz
+
+Linear Data Structures:
+
+    Intro
+
+    Stack
+
+    Queue
+
+    Linked List
+
+    Doubly Linked List
+
+    Doubly Linked List Operations
+
+    Priority Queue
+
+    Circular Queue
+
+    Quiz
+
+Trees:
+
+    Tree Elements
+
+    Binary Tree Types
+
+    Tree Traversal Types
+
+    Heap
+
+    Heap Operations
+
+    Binary Search Tree
+
+    B-Tree
+
+    B+ Tree
+
+    AVL Tree
+
+    Red-Black Tree
+
+    Trie (Prefix Tree)
+
+    Quiz
+
+Graphs:
+
+    Graph Data Structure
+
+    Graph Types
+
+    Graph Representation
+
+    Graph Spanning Tree
+
+    Graph Breadth First
+
+    Graph Depth First
+
+    Greedy Algorithms
+
+    Dijkstra's Algorithm
+
+    Quiz
