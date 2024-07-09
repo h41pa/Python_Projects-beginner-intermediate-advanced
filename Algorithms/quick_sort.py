@@ -1,4 +1,3 @@
-
 def quick_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -7,7 +6,7 @@ def quick_sort(arr):
     left, middle, right = [], [], []
 
     for x in arr:
-        if x <pivot:
+        if x < pivot:
             left.append(x)
         elif x == pivot:
             middle.append(x)
@@ -16,6 +15,7 @@ def quick_sort(arr):
             right.append(x)
 
     return quick_sort(left) + middle + quick_sort(right)
+
 
 my_list = [64, 25, 12, 22, 11, 9]
 sorted_list = quick_sort(my_list)

@@ -13,7 +13,7 @@ def binary_search(arr, target):
 
         else:
             # If element is smaller, ignore the right half
-            right = mid -1
+            right = mid - 1
     # If we reach here, then the element was not present
     return -1
 
@@ -29,6 +29,5 @@ eliminating half of the remaining elements in each step.
 
 -
 Binary Search has a time complexity of O(log n), making it very efficient for large datasets compared to linear search.
-
 
 """
